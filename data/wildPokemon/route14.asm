@@ -1,0 +1,14 @@
+Route14Mons:
+	db $0f
+	db 42,PRIMEAPE
+	db 42,DUGTRIO
+	db 42,MAGMAR
+	db 42,FEAROW
+	db 42,PERSIAN
+	db 42,BUTTERFREE
+	db 42,TANGELA
+	db 42,KANGASKHAN
+	db 42,LICKITUNG
+	db 42,SNORLAX
+	db $00
+

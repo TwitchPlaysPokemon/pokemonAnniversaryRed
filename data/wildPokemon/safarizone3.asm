@@ -1,0 +1,14 @@
+ZoneMons3:
+	db $1e
+	db 50,GOLEM
+	db 50,MACHAMP
+	db 50,ALAKAZAM
+	db 50,CHARMELEON
+	db 50,POLIWRATH
+	db 50,DITTO
+	db 50,VILEPLUME
+	db 50,VICTREEBEL
+	db 50,JYNX
+	db 50,KANGASKHAN
+	db $00
+

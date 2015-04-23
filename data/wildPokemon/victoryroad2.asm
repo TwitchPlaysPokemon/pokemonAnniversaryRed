@@ -1,0 +1,14 @@
+PlateauMons2:
+	db $0A
+	db 80,MACHOP
+	db 80,GEODUDE
+	db 80,VENUSAUR
+	db 80,ONIX
+	db 80,CUBONE
+	db 80,DIGLETT
+	db 80,RHYHORN
+	db 80,GOLBAT
+	db 80,MAROWAK
+	db 80,GOLEM
+	db $00
+

@@ -1,0 +1,14 @@
+ZoneMons2:
+	db $1E
+	db 50,GYARADOS
+	db 50,RHYDON
+	db 50,VICTREEBEL
+	db 50,MAGMAR
+	db 50,ELECTABUZZ
+	db 50,IVYSAUR
+	db 50,MUK
+	db 50,VENOMOTH
+	db 50,MR_MIME
+	db 50,CHANSEY
+	db $00
+

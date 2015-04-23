@@ -1,0 +1,14 @@
+MoonMonsB1:
+	db $0a
+	db 18,DIGLETT
+	db 18,GRIMER
+	db 18,KOFFING
+	db 18,EKANS
+	db 18,VENONAT
+	db 18,ODDISH
+	db 18,BELLSPROUT
+	db 18,JIGGLYPUFF
+	db 18,CLEFAIRY
+	db 18,SLOWPOKE
+	db $00
+

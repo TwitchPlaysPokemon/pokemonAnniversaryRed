@@ -1,0 +1,14 @@
+PlateauMons1:
+	db $0f
+	db 80,MACHOKE
+	db 80,GRAVELER
+	db 80,GOLBAT
+	db 80,CHARIZARD
+	db 80,RHYHORN
+	db 80,RHYDON
+	db 80,MAROWAK
+	db 80,DUGTRIO
+	db 80,GOLEM
+	db 80,MACHAMP
+	db $00
+

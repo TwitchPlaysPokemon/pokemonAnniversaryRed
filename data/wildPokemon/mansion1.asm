@@ -1,0 +1,14 @@
+MansionMons1:
+	db $0a
+	db 52,KOFFING
+	db 50,KOFFING
+	db 54,PONYTA
+	db 50,PONYTA
+	db 54,GROWLITHE
+	db 52,PONYTA
+	db 50,GRIMER
+	db 52,PONYTA
+	db 53,WEEZING
+	db 54,MUK
+	db $00
+

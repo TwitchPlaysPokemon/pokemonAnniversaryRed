@@ -1,0 +1,14 @@
+Route1Mons:
+	db $19
+	db 4,SPEAROW
+	db 4,MEOWTH
+	db 3,DODUO
+	db 4,PIDGEY
+	db 3,PIKACHU
+	db 4,ODDISH
+	db 4,BELLSPROUT
+	db 3,CUBONE
+	db 3,TANGELA
+	db 4,EXEGGCUTE
+	db $00
+

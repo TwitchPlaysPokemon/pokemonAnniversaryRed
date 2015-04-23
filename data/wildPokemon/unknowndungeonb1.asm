@@ -1,0 +1,13 @@
+DungeonMonsB1:
+	db $10
+	db 85,RHYDON
+	db 85,MAROWAK
+	db 85,ELECTRODE
+	db 85,CHANSEY
+	db 85,PARASECT
+	db 85,RAICHU
+	db 85,ARBOK
+	db 85,GENGAR
+	db 85,SANDSLASH
+	db 88,DITTO
+	db $00

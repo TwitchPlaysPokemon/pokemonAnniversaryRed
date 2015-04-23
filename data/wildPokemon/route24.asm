@@ -1,0 +1,14 @@
+Route24Mons:
+	db $11
+	db 18,GROWLITHE
+	db 18,VULPIX
+	db 18,PONYTA
+	db 18,PARAS
+	db 18,MACHOP
+	db 18,ABRA
+	db 18,ODDISH
+	db 18,PIDGEY
+	db 18,FARFETCH_D
+	db 18,MAGNEMITE
+	db $00
+

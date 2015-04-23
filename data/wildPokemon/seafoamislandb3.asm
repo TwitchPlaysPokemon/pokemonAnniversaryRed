@@ -1,0 +1,14 @@
+IslandMonsB3:
+	db $0a
+	db 65,SLOWPOKE
+	db 65,SEEL
+	db 65,SLOWPOKE
+	db 65,OMASTAR
+	db 65,HORSEA
+	db 65,SHELLDER
+	db 65,HORSEA
+	db 65,KABUTOPS
+	db 65,SEADRA
+	db 65,DEWGONG
+	db $00
+

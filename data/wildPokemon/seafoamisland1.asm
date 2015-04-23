@@ -1,0 +1,14 @@
+IslandMons1:
+	db $0f
+	db 40,SEEL
+	db 40,SLOWPOKE
+	db 40,SHELLDER
+	db 40,HORSEA
+	db 45,HORSEA
+	db 41,ZUBAT
+	db 49,GOLBAT
+	db 38,PSYDUCK
+	db 35,SHELLDER
+	db 38,GOLDUCK
+	db $00
+

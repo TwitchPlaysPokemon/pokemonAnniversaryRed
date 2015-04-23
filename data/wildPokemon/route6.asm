@@ -1,0 +1,14 @@
+Route6Mons:
+	db $0f
+	db 20,VENONAT
+	db 20,PIDGEOTTO
+	db 20,FEAROW
+	db 20,POLIWHIRL
+	db 20,GROWLITHE
+	db 20,PONYTA
+	db 20,PARAS
+	db 20,WEEPINBELL
+	db 20,KRABBY
+	db 15,PIDGEY
+	db $00
+

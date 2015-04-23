@@ -1,0 +1,14 @@
+Route2Mons:
+	db $19
+	db 5,POLIWAG
+	db 6,JIGGLYPUFF
+	db 5,EKANS
+	db 6,NIDORAN_F
+	db 5,NIDORAN_M
+	db 5,GRIMER
+	db 6,RATTATA
+	db 5,CHARMANDER
+	db 5,SQUIRTLE
+	db 5,BULBASAUR
+	db $00
+

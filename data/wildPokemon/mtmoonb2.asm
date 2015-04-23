@@ -1,0 +1,14 @@
+MoonMonsB2:
+	db $0A
+	db 19,MACHOP
+	db 19,RHYHORN
+	db 19,CUBONE
+	db 19,GEODUDE
+	db 19,ZUBAT
+	db 19,DIGLETT
+	db 19,ONIX
+	db 19,SANDSHREW
+	db 19,PSYDUCK
+	db 19,DITTO
+	db $00
+

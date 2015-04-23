@@ -1,0 +1,16 @@
+CreditsMons: ; 74131 (1d:4131)
+	db CHARIZARD
+	db PARASECT
+	db PERSIAN
+	db MOLTRES
+	db ABRA
+	db ZAPDOS
+	db HITMONLEE
+	db TANGELA
+	db ARTICUNO
+	db GYARADOS
+	db DITTO
+	db MEWTWO
+	db VILEPLUME
+	db NIDOKING
+	db MEW

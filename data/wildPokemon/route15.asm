@@ -1,0 +1,14 @@
+Route15Mons:
+	db $0f
+	db 40,POLIWHIRL
+	db 40,KRABBY
+	db 40,JYNX
+	db 40,PARASECT
+	db 40,MAROWAK
+	db 40,ARCANINE
+	db 40,GOLDUCK
+	db 40,MACHOKE
+	db 40,PIDGEOT
+	db 40,ALAKAZAM
+	db $00
+

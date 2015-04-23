@@ -1,0 +1,14 @@
+TowerMons6:
+	db $0F
+	db 55,HAUNTER
+	db 55,MAROWAK
+	db 55,ARBOK
+	db 55,MUK
+	db 55,GASTLY
+	db 55,HAUNTER
+	db 55,HAUNTER
+	db 55,CUBONE
+	db 57,WEEZING
+	db 57,GENGAR
+	db $00
+

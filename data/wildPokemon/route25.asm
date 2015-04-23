@@ -1,0 +1,14 @@
+Route25Mons:
+	db $0F
+	db 20,SLOWBRO
+	db 20,MANKEY
+	db 20,DROWZEE
+	db 20,BELLSPROUT
+	db 20,VENONAT
+	db 20,CUBONE
+	db 20,EXEGGCUTE
+	db 20,ELECTABUZZ
+	db 20,MAGMAR
+	db 20,SCYTHER
+	db $00
+

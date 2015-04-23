@@ -1,0 +1,14 @@
+PowerPlantMons:
+	db $0A
+	db 60,ELECTRODE
+	db 60,MAGNETON
+	db 60,RAICHU
+	db 60,TAUROS
+	db 60,CHANSEY
+	db 60,MR_MIME
+	db 65,MAGNEMITE
+	db 60,MAGNETON
+	db 65,VOLTORB
+	db 60,ELECTABUZZ
+	db $00
+

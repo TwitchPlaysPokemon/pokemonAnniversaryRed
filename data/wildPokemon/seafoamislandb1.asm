@@ -1,0 +1,14 @@
+IslandMonsB1:
+	db $0a
+	db 50,STARMIE
+	db 50,SEADRA
+	db 50,CLOYSTER
+	db 50,SEAKING
+	db 50,SLOWPOKE
+	db 50,SEEL
+	db 50,KABUTO
+	db 50,GOLDUCK
+	db 50,DEWGONG
+	db 50,OMANYTE
+	db $00
+

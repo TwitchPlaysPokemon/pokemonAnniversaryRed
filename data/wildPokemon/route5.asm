@@ -1,0 +1,14 @@
+Route5Mons:
+	db $0f
+	db 19,GRIMER
+	db 19,DRATINI
+	db 19,SPEAROW
+	db 19,DODUO
+	db 19,MANKEY
+	db 19,BELLSPROUT
+	db 19,NIDORINO
+	db 19,NIDORINA
+	db 19,HORSEA
+	db 19,GLOOM
+	db $00
+

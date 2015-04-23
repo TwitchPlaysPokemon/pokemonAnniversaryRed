@@ -1,0 +1,14 @@
+IslandMonsB2:
+	db $0a
+	db 57,SEEL
+	db 57,SLOWPOKE
+	db 57,OMANYTE
+	db 57,SLOWPOKE
+	db 57,HORSEA
+	db 57,STARYU
+	db 57,KABUTO
+	db 57,SHELLDER
+	db 57,GOLBAT
+	db 57,SLOWBRO
+	db $00
+

@@ -1,0 +1,14 @@
+DungeonMons1:
+	db $0a
+	db 80,GOLBAT
+	db 80,HYPNO
+	db 80,MAGNETON
+	db 80,MUK
+	db 80,VENOMOTH
+	db 80,ARBOK
+	db 80,MACHAMP
+	db 80,PARASECT
+	db 80,RAICHU
+	db 80,ELECTABUZZ
+	db $00
+

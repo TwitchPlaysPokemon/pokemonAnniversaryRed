@@ -1,0 +1,14 @@
+IslandMonsB4:
+	db $0a
+	db 70,HORSEA
+	db 70,SHELLDER
+	db 70,KABUTOPS
+	db 70,SHELLDER
+	db 70,SLOWPOKE
+	db 70,SEEL
+	db 70,SLOWPOKE
+	db 70,OMASTAR
+	db 70,SLOWBRO
+	db 70,GOLBAT
+	db $00
+

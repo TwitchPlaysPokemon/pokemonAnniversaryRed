@@ -1,0 +1,14 @@
+Route7Mons:
+	db $0f
+	db 27,MAGMAR
+	db 27,ELECTABUZZ
+	db 27,MR_MIME
+	db 27,MACHOKE
+	db 27,ARBOK
+	db 27,MUK
+	db 27,PINSIR
+	db 27,SCYTHER
+	db 27,MAROWAK
+	db 27,GRIMER
+	db $00
+

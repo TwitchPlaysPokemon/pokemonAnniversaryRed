@@ -1,0 +1,102 @@
+; mart inventories are below
+; they are texts
+; first byte $FE, next byte # of items, last byte $FF
+
+; Viridian
+ViridianMartText6:: ; 2442 (0:2442)
+	db $FE,4,POKE_BALL,ANTIDOTE,PARLYZ_HEAL,BURN_HEAL,$FF
+
+; Pewter
+PewterMartText1:: ; 2449 (0:2449)
+	db $FE,7,POKE_BALL,POTION,ESCAPE_ROPE,ANTIDOTE,BURN_HEAL,AWAKENING
+	db PARLYZ_HEAL,$FF
+
+; Cerulean
+CeruleanMartText1:: ; 2453 (0:2453)
+	db $FE,7,POKE_BALL,POTION,REPEL,ANTIDOTE,BURN_HEAL,AWAKENING
+	db PARLYZ_HEAL,$FF
+
+; Bike shop
+	db $FE,1,BICYCLE,$FF
+
+; Vermilion
+VermilionMartText1:: ; 2461 (0:2461)
+	db $FE,6,POKE_BALL,SUPER_POTION,ICE_HEAL,AWAKENING,PARLYZ_HEAL
+	db REPEL,$FF
+
+; Lavender
+LavenderMartText1:: ; 246a (0:246a)
+	db $FE,9,GREAT_BALL,SUPER_POTION,REVIVE,ESCAPE_ROPE,SUPER_REPEL
+	db ANTIDOTE,BURN_HEAL,ICE_HEAL,PARLYZ_HEAL,$FF
+
+; Celadon Dept. Store 2F (1)
+CeladonMart2Text1:: ; 2476 (0:2476)
+	db $FE,9,GREAT_BALL,SUPER_POTION,REVIVE,SUPER_REPEL,ANTIDOTE
+	db BURN_HEAL,ICE_HEAL,AWAKENING,PARLYZ_HEAL,$FF
+
+; Celadon Dept. Store 2F (2)
+CeladonMart2Text2:: ; 2482 (0:2482)
+	db $FE,9,TM_32,TM_33,TM_02,TM_07,TM_37,TM_01,TM_05,TM_09,TM_17,$FF
+
+; Celadon Dept. Store 4F
+CeladonMart4Text1:: ; 248e (0:248e)
+	db $FE,7,POKE_DOLL,FIRE_STONE,THUNDER_STONE,WATER_STONE,LEAF_STONE,TM_07,TM_30,$FF
+
+; Celadon Dept. Store 5F (1)
+CeladonMart5Text3:: ; 2496 (0:2496)
+	db $FE,7,X_ACCURACY,GUARD_SPEC_,DIRE_HIT,X_ATTACK,X_DEFEND,X_SPEED
+	db X_SPECIAL,$FF
+
+; Celadon Dept. Store 5F (2)
+CeladonMart5Text4:: ; 24a0 (0:24a0)
+	db $FE,5,HP_UP,PROTEIN,IRON,CARBOS,CALCIUM,$FF
+	
+; Battle Tent
+BattleTentMart::
+	db $FE, 13, POTION, SUPER_POTION, HYPER_POTION, MAX_POTION, FULL_RESTORE
+	db REVIVE, MAX_REVIVE, FULL_HEAL, POKE_DOLL, X_ATTACK
+	db X_DEFEND, X_SPEED, X_SPECIAL, $FF
+
+; Fuchsia
+FuchsiaMartText1:: ; 24a8 (0:24a8)
+	db $FE,6,ULTRA_BALL,GREAT_BALL,SUPER_POTION,REVIVE,FULL_HEAL
+	db SUPER_REPEL,$FF
+
+; Cinnabar
+CinnabarMartText1:: ; 24b9 (0:24b9)
+	db $FE,7,ULTRA_BALL,GREAT_BALL,HYPER_POTION,MAX_REPEL,ESCAPE_ROPE
+	db FULL_HEAL,REVIVE,$FF
+
+; Saffron
+SaffronMartText1:: ; 24c3 (0:24c3)
+	db $FE,6,GREAT_BALL,HYPER_POTION,MAX_REPEL,ESCAPE_ROPE,FULL_HEAL
+	db REVIVE,$FF
+
+; Indigo
+IndigoPlateauLobbyText4:: ; 24cc (0:24cc)
+	db $FE,7,ULTRA_BALL,GREAT_BALL,FULL_RESTORE,MAX_POTION,FULL_HEAL
+	db REVIVE,MAX_REPEL,$FF
+	
+CeladonMart4Text4::
+	db $FE,8,TM_01,TM_02,TM_03,TM_04,TM_05
+	db TM_06,TM_08,TM_09,$FF
+
+CeladonMart4Text5::
+	db $FE,8,TM_10,TM_11,TM_12,TM_13,TM_14
+	db TM_15,TM_16,TM_17,$FF
+
+CeladonMart4Text6::
+	db $FE,8,TM_18,TM_19,TM_20,TM_21,TM_22
+	db TM_23,TM_24,TM_25,$FF
+
+CeladonMartRoofText7::
+	db $FE,8,TM_26,TM_27,TM_28,TM_29,TM_31
+	db TM_32,TM_33,TM_34,$FF
+
+CeladonMartRoofText8::
+	db $FE,8,TM_35,TM_36,TM_37,TM_38,TM_39
+	db TM_40,TM_41,TM_42,$FF
+
+CeladonMartRoofText9::
+	db $FE,8,TM_43,TM_44,TM_45,TM_46,TM_47
+	db TM_48,TM_49,TM_50,$FF

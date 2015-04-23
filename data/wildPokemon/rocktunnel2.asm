@@ -1,0 +1,14 @@
+TunnelMonsB2:
+	db $0F
+	db 37,GOLBAT
+	db 37,PRIMEAPE
+	db 37,MAROWAK
+	db 37,MACHOKE
+	db 37,MAGMAR
+	db 37,WEEZING
+	db 37,MUK
+	db 37,ARBOK
+	db 37,ONIX
+	db 37,GOLEM
+	db $00
+

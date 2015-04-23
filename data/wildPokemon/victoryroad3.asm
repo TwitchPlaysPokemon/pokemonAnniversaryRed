@@ -1,0 +1,14 @@
+PlateauMons3:
+	db $0f
+	db 81,ONIX
+	db 81,KANGASKHAN
+	db 81,GOLBAT
+	db 81,BLASTOISE
+	db 81,VENOMOTH
+	db 81,GOLEM
+	db 81,MACHAMP
+	db 81,MAROWAK
+	db 81,CLEFABLE
+	db 81,CHANSEY
+	db $00
+

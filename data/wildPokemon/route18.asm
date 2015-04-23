@@ -1,0 +1,14 @@
+Route18Mons:
+	db $19
+	db 43,DODRIO
+	db 43,FEAROW
+	db 43,PIDGEOT
+	db 43,FARFETCH_D
+	db 43,PERSIAN
+	db 43,VENOMOTH
+	db 43,BEEDRILL
+	db 43,BUTTERFREE
+	db 43,PARAS
+	db 43,STARMIE
+	db $00
+

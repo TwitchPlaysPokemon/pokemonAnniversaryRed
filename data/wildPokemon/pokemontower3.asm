@@ -1,0 +1,14 @@
+TowerMons3:
+	db $0A
+	db 50,GASTLY
+	db 50,HAUNTER
+	db 50,GASTLY
+	db 50,HAUNTER
+	db 50,GASTLY
+	db 50,HAUNTER
+	db 50,GASTLY
+	db 50,CUBONE
+	db 50,MAROWAK
+	db 50,HAUNTER
+	db $00
+

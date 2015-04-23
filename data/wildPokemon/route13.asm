@@ -1,0 +1,14 @@
+Route13Mons:
+	db $14
+	db 40,VENOMOTH
+	db 40,VICTREEBEL
+	db 40,PIDGEOT
+	db 40,DODRIO
+	db 40,MUK
+	db 40,WEEZING
+	db 40,ARBOK
+	db 40,SCYTHER
+	db 40,GLOOM
+	db 40,MAGNETON
+	db $00
+

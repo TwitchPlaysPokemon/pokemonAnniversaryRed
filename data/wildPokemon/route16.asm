@@ -1,0 +1,14 @@
+Route16Mons:
+	db $19
+	db 40,GOLEM
+	db 40,NIDOQUEEN
+	db 40,NIDOKING
+	db 40,PSYDUCK
+	db 40,POLIWAG
+	db 40,RATTATA
+	db 40,RHYHORN
+	db 40,DODRIO
+	db 40,SLOWPOKE
+	db 40,HITMONLEE
+	db $00
+

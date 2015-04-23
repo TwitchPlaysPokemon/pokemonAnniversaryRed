@@ -1,0 +1,14 @@
+Route17Mons:
+	db $19
+	db 41,ARBOK
+	db 41,WEEZING
+	db 41,GOLBAT
+	db 41,HYPNO
+	db 41,MR_MIME
+	db 41,SCYTHER
+	db 41,WEEZING
+	db 41,RATICATE
+	db 41,MUK
+	db 40,HITMONCHAN
+	db $00
+

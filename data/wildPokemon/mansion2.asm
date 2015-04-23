@@ -1,0 +1,14 @@
+MansionMons2:
+	db $0a
+	db 55,GROWLITHE
+	db 55,PONYTA
+	db 55,VULPIX
+	db 55,MAROWAK
+	db 55,WEEZING
+	db 55,MAGMAR
+	db 55,MUK
+	db 55,HYPNO
+	db 55,HAUNTER
+	db 55,MACHOKE
+	db $00
+

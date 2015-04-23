@@ -1,0 +1,14 @@
+TowerMons4:
+	db $0A
+	db 50,ARBOK
+	db 50,MUK
+	db 50,WEEZING
+	db 50,GASTLY
+	db 50,GASTLY
+	db 50,HAUNTER
+	db 50,HAUNTER
+	db 55,CUBONE
+	db 55,CUBONE
+	db 50,HAUNTER
+	db $00
+
