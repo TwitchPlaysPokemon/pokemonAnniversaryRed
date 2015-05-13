@@ -244,7 +244,7 @@ MapHeaderBanks: ; c23d (3:423d)
 	db $11
 	db $11
 	db $11
-	db $11
+	db BANK(CeladonMartBasement_h)
 	db BANK(Lorelei_h)
 	db BANK(Bruno_h)
 	db BANK(Agatha_h)

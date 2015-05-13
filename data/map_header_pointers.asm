@@ -244,7 +244,7 @@ MapHeaderPointers:: ; 01ae (0:01ae)
 	dw SilphCo2_h ; unused
 	dw SilphCo2_h ; unused
 	dw SilphCo2_h ; unused
-	dw SilphCo2_h ; unused
+	dw CeladonMartBasement_h
 	dw Lorelei_h
 	dw Bruno_h
 	dw Agatha_h ;247

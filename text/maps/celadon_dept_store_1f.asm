@@ -23,6 +23,8 @@ _CeladonMart1Text2:: ; 9c6cd (27:46cd)
 
 	para "ROOFTOP SQUARE:"
 	line "VENDING MACHINES"
+	
+	para "B1F: TM DEPOT"
 	done
 
 _CeladonMart1Text3:: ; 9c752 (27:4752)

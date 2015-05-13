@@ -92,7 +92,7 @@ ENDC
 	inc a
 	dec b
 	jr nz, .asm_4361
-	call Func_44dd
+	call TPPTitle
 	ld hl, wOAMBuffer + $28
 	ld a, $74
 	ld [hl], a
@@ -310,12 +310,38 @@ Func_44cf: ; 44cf (1:44cf)
 	cp h
 	jr z, .wait2
 	ret
+	
+TitleBoy:
+	ld hl, PlayerCharacterTitleGraphics 
+	ld a, BANK(PlayerCharacterTitleGraphics)
+	ret
+	
+TitleGirl:
+	ld hl, PlayerCharacterFTitleGraphics 
+	ld a, BANK(PlayerCharacterFTitleGraphics)
+	ret
+	
+TPPTitle:
+	call Random
+	ld [$DEFF], a
+	bit 0, a
+	jr z, .randomgirl
+	call TitleBoy
+	jp TitlePlayerGFX
+.randomgirl
+	call TitleGirl
+	jp TitlePlayerGFX
 
 Func_44dd: ; 44dd (1:44dd)
-	ld hl, PlayerCharacterTitleGraphics ; $66a8
+	rst CheckPlayerGender
+	call TitleBoy
+	jr nc, .boytitle
+	call TitleGirl
+.boytitle
+TitlePlayerGFX:
 	ld de, vSprites
 	ld bc, $230
-	ld a, BANK(PlayerCharacterTitleGraphics)
+	
 	call FarCopyData2
 	call ClearSprites
 	xor a

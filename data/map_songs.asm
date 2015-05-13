@@ -243,7 +243,7 @@ MapSongBanks: ; c04d (3:404d)
 	db MUSIC_SILPH_CO, BANK(Music_SilphCo)
 	db MUSIC_SILPH_CO, BANK(Music_SilphCo)
 	db MUSIC_SILPH_CO, BANK(Music_SilphCo)
-	db MUSIC_SILPH_CO, BANK(Music_SilphCo)
+	db MUSIC_POKECENTER, BANK(Music_Pokecenter) ; CeladonMartBasement
 	db MUSIC_GYM, BANK(Music_Gym) ; Lorelei
 	db MUSIC_DUNGEON1, BANK(Music_Dungeon1) ; Bruno
 	db MUSIC_POKEMON_TOWER, BANK(Music_PokemonTower) ; Agatha

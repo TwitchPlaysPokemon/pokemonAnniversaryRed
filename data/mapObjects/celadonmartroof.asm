@@ -10,12 +10,9 @@ CeladonMartRoofObject: ; 0x485a8 (size=36)
 	db $2, $c, $5 ; CeladonMartRoofText5
 	db $2, $d, $6 ; CeladonMartRoofText6
 
-	db $5 ; people
+	db $2 ; people
 	db SPRITE_BLACK_HAIR_BOY_2, $4 + 4, $a + 4, $ff, $d2, $1 ; person
 	db SPRITE_LITTLE_GIRL, $5 + 4, $5 + 4, $fe, $0, $2 ; person
-	db SPRITE_MART_GUY, $6 + 4, $D + 4, $ff, $d4, $7 ; person
-	db SPRITE_MART_GUY, $6 + 4, $F + 4, $ff, $ff, $8 ; person
-	db SPRITE_MART_GUY, $6 + 4, $11 + 4, $ff, $ff, $9 ; person
 
 	; warp-to
 	EVENT_DISP CELADON_MART_ROOF_WIDTH, $2, $f ; CELADON_MART_5

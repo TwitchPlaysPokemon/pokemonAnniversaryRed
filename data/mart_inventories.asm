@@ -77,26 +77,26 @@ IndigoPlateauLobbyText4:: ; 24cc (0:24cc)
 	db $FE,7,ULTRA_BALL,GREAT_BALL,FULL_RESTORE,MAX_POTION,FULL_HEAL
 	db REVIVE,MAX_REPEL,$FF
 	
-CeladonMart4Text4::
+CeladonMartBasementText1::
 	db $FE,8,TM_01,TM_02,TM_03,TM_04,TM_05
 	db TM_06,TM_08,TM_09,$FF
 
-CeladonMart4Text5::
+CeladonMartBasementText2::
 	db $FE,8,TM_10,TM_11,TM_12,TM_13,TM_14
 	db TM_15,TM_16,TM_17,$FF
 
-CeladonMart4Text6::
+CeladonMartBasementText3::
 	db $FE,8,TM_18,TM_19,TM_20,TM_21,TM_22
 	db TM_23,TM_24,TM_25,$FF
 
-CeladonMartRoofText7::
+CeladonMartBasementText4::
 	db $FE,8,TM_26,TM_27,TM_28,TM_29,TM_31
 	db TM_32,TM_33,TM_34,$FF
 
-CeladonMartRoofText8::
+CeladonMartBasementText5::
 	db $FE,8,TM_35,TM_36,TM_37,TM_38,TM_39
 	db TM_40,TM_41,TM_42,$FF
 
-CeladonMartRoofText9::
+CeladonMartBasementText6::
 	db $FE,8,TM_43,TM_44,TM_45,TM_46,TM_47
 	db TM_48,TM_49,TM_50,$FF

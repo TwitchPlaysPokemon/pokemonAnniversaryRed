@@ -5,9 +5,6 @@ CeladonMart4TextPointers: ; 48359 (12:4359)
 	dw CeladonMart4Text1
 	dw CeladonMart4Text2
 	dw CeladonMart4Text3
-	dw CeladonMart4Text4
-	dw CeladonMart4Text5
-	dw CeladonMart4Text6
 	dw CeladonMart4Text10
 
 CeladonMart4Text2: ; 48361 (12:4361)

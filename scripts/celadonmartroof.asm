@@ -218,10 +218,7 @@ CeladonMartRoofTextPointers: ; 4855b (12:455b)
 	dw CeladonMartRoofText5
 	dw CeladonMartRoofText5
 	dw CeladonMartRoofText6
-	dw CeladonMartRoofText7
-	dw CeladonMartRoofText8
-	dw CeladonMartRoofText9
-
+	
 CeladonMartRoofText1: ; 48567 (12:4567)
 	TX_FAR _CeladonMartRoofText1
 	db "@"

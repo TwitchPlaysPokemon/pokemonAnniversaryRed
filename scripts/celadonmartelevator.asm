@@ -36,18 +36,19 @@ CeladonMartElevatorScript_48631: ; 48631 (12:4631)
 	call LoadItemList
 	ld hl, CeldaonMartElevatorWarpMaps ; $464a
 	ld de, wcc5b
-	ld bc, $000a
+	ld bc, $000c
 	jp CopyData
 
 CeladonMartElavatorFloors: ; 48643 (12:4643)
-	db $05 ; num elements in list
-	db $56, $57, $58, $59, $5A ; "1F", "2F", "3F", "4F, "5F"
+	db $06 ; num elements in list
+	db $55, $56, $57, $58, $59, $5A ; "1F", "2F", "3F", "4F, "5F"
 	db $FF ; terminator
 
 CeldaonMartElevatorWarpMaps: ; 4864a (12:464a)
 ; first byte is warp number
 ; second byte is map number
 ; These specify where the player goes after getting out of the elevator.
+    db $00, CELADON_MART_BASEMENT
 	db $05, CELADON_MART_1
 	db $02, CELADON_MART_2
 	db $02, CELADON_MART_3

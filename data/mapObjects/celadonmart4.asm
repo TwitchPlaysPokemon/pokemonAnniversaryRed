@@ -9,13 +9,10 @@ CeladonMart4Object: ; 0x48370 (size=49)
 	db $1 ; signs
 	db $1, $e, $7 ; CeladonMart4Text4
 
-	db $6 ; people
+	db $3 ; people
 	db SPRITE_MART_GUY, $7 + 4, $7 + 4, $ff, $ff, $1 ; person
 	db SPRITE_BLACK_HAIR_BOY_2, $5 + 4, $f + 4, $fe, $2, $2 ; person
 	db SPRITE_BUG_CATCHER, $2 + 4, $5 + 4, $fe, $2, $3 ; person
-	db SPRITE_MART_GUY, $7 + 4, $1 + 4, $ff, $ff, $4 ; person
-	db SPRITE_MART_GUY, $7 + 4, $3 + 4, $ff, $ff, $5 ; person
-	db SPRITE_MART_GUY, $7 + 4, $5 + 4, $ff, $ff, $6 ; person
 
 	; warp-to
 	EVENT_DISP CELADON_MART_4_WIDTH, $1, $c ; CELADON_MART_3

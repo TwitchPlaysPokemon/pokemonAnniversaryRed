@@ -1,6 +1,3 @@
-
-HACK_VERSION EQU 472
-
 ; Header
 
 INCBIN "151header.txt"
@@ -42,6 +39,11 @@ INCLUDE "scripts/battletent.asm"
 INCLUDE "data/mapObjects/battletent.asm"
 BattleTentBlocks: INCBIN "maps/battletent.blk"
 
+INCLUDE "data/mapHeaders/celadonmartbasement.asm"
+INCLUDE "scripts/celadonmartbasement.asm"
+INCLUDE "data/mapObjects/celadonmartbasement.asm"
+CeladonMartBasementBlocks: INCBIN "maps/celadonmartbasement.blk"
+
 ; GFXs
 
 RedGPicFront::         INCBIN "girl/front.pic"
@@ -61,6 +63,7 @@ Gym2_Block:         INCBIN "gfx/blocksets/gym2.bst"
 TPPRedTransitionTiles: INCBIN "gfx/udlrab.1bpp"
 HackCreditScrollerGFX: INCBIN "gfx/credit_scroller.2bpp"
 ThanksForWatchingGFX:  INCBIN "gfx/thanks_for_watching.2bpp"
+PlayerCharacterFTitleGraphics:  INCBIN "gfx/playerF_title.2bpp"
 
 INCLUDE "151hack/engine.asm"
 INCLUDE "151hack/animation.asm"

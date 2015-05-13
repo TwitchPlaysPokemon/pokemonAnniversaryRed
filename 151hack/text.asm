@@ -289,20 +289,11 @@ HackCreditsText::
 	db 1, "Project Management@"
 	db 4, "EliteAnax17@"
 	
-	db 4
+	db 3
 	db 6, "Testers@"
 	db 5, "azum4roll@"
-	db 4, "Aissurtievos@"
 	db 4, "EliteAnax17@"
 	db 6, "walle303@"
-	
-	db 1
-	db 0, "To whoever helped me@"
-	db 3, "port rletools..@"
-	
-	db 1
-	db 0, "Thank you for saving@"
-	db 1, "me weeks of pain!@"
 	
 	db 2
 	db 5, "Custom GFX@"
@@ -317,6 +308,12 @@ HackCreditsText::
 	db 1, "Dream Red music by@"
 	db 3, "JUNICHI MASUDA@"
 	db 5, "GO ICHINOSE@"
+	
+	db 3
+	db 2, "Final Polishing@"
+	db 5, "Koolboyman@"
+	db 6, "walle303@"
+	db 4, "LightningXCE@"
 	
 	db 4
 	db 3, "Special Thanks@"
@@ -337,3 +334,4 @@ HackCreditsText::
 	
 	db $FF
 	
+INCLUDE "text/maps/celadon_dept_store_b1.asm"

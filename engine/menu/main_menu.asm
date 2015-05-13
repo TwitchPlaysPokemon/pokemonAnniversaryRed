@@ -439,6 +439,9 @@ DisplayOptionMenu: ; 5e8a (1:5e8a)
 	hlCoord 2, 16
 	ld de,OptionMenuCancelText
 	call PlaceString
+	hlCoord 5, 15
+	ld de,VersionNoText
+	call PlaceString
 	xor a
 	ld [wCurrentMenuItem],a
 	ld [wLastMenuItem],a
@@ -693,4 +696,16 @@ Func_609e: ; 609e (1:609e)
 	ld [$0], a
 	ld [$6000], a
 	scf
-	ret
+	ret	
+	
+VersionNoText:: 
+	IF HACK_VERSION % 100 == 0
+		db "Patch ", (HACK_VERSION / 100 + "0"), "@"
+	ELSE IF HACK_VERSION % 10 == 0
+		db "Patch ", (HACK_VERSION / 100 + "0"), ".", ((HACK_VERSION / 10) % 10 + "0"), "@"
+	ELSE
+		db "Patch ", (HACK_VERSION / 100 + "0"), ".", ((HACK_VERSION / 10) % 10 + "0"), "."
+		db (HACK_VERSION % 10 + "0"), "@"
+	ENDC
+	ENDC
+	db $FF
