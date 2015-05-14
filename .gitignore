@@ -12,7 +12,7 @@
 *.gb
 
 # rgbds extras
-# *.map the required tile map file is in .map!
+*.map
 *.sym
 
 # converted image data

@@ -1,9 +1,9 @@
 BorderPalettes: ; 72788 (1c:6788)
 IF DEF(_RED)
-	INCBIN "gfx/red/sgbborder.map"
+	INCBIN "gfx/red/sgbborder.tilemap"
 ENDC
 IF DEF(_BLUE)
-	INCBIN "gfx/blue/sgbborder.map"
+	INCBIN "gfx/blue/sgbborder.tilemap"
 ENDC
 
 	ds $100

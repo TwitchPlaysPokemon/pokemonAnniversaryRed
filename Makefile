@@ -32,8 +32,8 @@ MD5 := md5sum -c --quiet
 # The compare target is a shortcut to check that the build matches the original roms exactly.
 # This is for contributors to make sure a change didn't affect the contents of the rom.
 # More thorough comparison can be made by diffing the output of hexdump -C against both roms.
-compare:
-	$(MD5) roms.md5
+compare: red blue
+	@$(MD5) roms.md5
 
 
 # Clear the default suffixes.
@@ -68,29 +68,30 @@ $(foreach obj, $(all_obj), \
 
 # Image files are added to a queue to reduce build time. They're converted when building parent objects.
 %.png:  ;
-%.2bpp: %.png  ; $(eval 2bppq += $<) rm -f $@
-%.1bpp: %.png  ; $(eval 1bppq += $<) rm -f $@
-%.pic:  %.2bpp ; $(eval picq  += $<) rm -f $@
+%.2bpp: %.png  ; $(eval 2bppq += $<) @rm -f $@
+%.1bpp: %.png  ; $(eval 1bppq += $<) @rm -f $@
+%.pic:  %.2bpp ; $(eval picq  += $<) @rm -f $@
 
 # Assemble source files into objects.
 # Queue payloads are here. These are made silent since there may be hundreds of targets.
 # Use rgbasm -h to use halts without nops.
 $(all_obj): $$*.asm $$($$*_dep)
-	$(gfx) 2bpp $(2bppq);    $(eval 2bppq :=)
-	$(gfx) 1bpp $(1bppq);    $(eval 1bppq :=)
-	$(pic) compress $(picq); $(eval picq  :=)
+	@$(gfx) 2bpp $(2bppq);    $(eval 2bppq :=)
+	@$(gfx) 1bpp $(1bppq);    $(eval 1bppq :=)
+	@$(pic) compress $(picq); $(eval picq  :=)
 	rgbasm -h -o $@ $*.asm
 
 
 # Link objects together to build a rom.
 
-# Make a symfile for debugging. rgblink will segfault if a mapfile isn't made too.
-link = rgblink -n poke$*.sym -m poke$*.map
+# Make a symfile for debugging.
+link = rgblink -n poke$*.sym
 
 poke%.gbc: $$(%_obj)
 	$(link) -o $@ $^
 	rgbfix $($*_opt) $@
 
+
 clean:
-	rm -f $(roms) $(all_obj)
+	rm -f $(roms) $(all_obj) poke*.sym
 	find . \( -iname '*.1bpp' -o -iname '*.2bpp' -o -iname '*.pic' \) -exec rm {} +

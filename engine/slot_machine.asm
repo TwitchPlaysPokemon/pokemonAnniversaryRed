@@ -850,7 +850,7 @@ LoadSlotMachineTiles: ; 378a8 (d:78a8)
 	jp SlotMachine_37833
 
 SlotMachineMap: ; 378f5 (d:78f5)
-	INCBIN "gfx/tilemaps/slotmachine.map"
+	INCBIN "gfx/tilemaps/slotmachine.tilemap"
 
 SLOTS7		EQU $0200
 SLOTSBAR	EQU $0604
