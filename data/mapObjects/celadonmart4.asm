@@ -7,7 +7,7 @@ CeladonMart4Object: ; 0x48370 (size=49)
 	db $1, $1, $0, CELADON_MART_ELEVATOR
 
 	db $1 ; signs
-	db $1, $e, $5 ; CeladonMart4Text4
+	db $1, $e, $4 ; CeladonMart4Text4
 
 	db $3 ; people
 	db SPRITE_MART_GUY, $7 + 4, $7 + 4, $ff, $ff, $1 ; person
